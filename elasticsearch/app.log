@@ -1,0 +1,458 @@
+2024-01-20 14:11:18.902 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:50] Starting ElasticsearchApplication using Java 17.0.7 with PID 19240 (C:\All-elastic-search\elasticsearch\target\classes started by Asus in C:\All-elastic-search\elasticsearch)
+2024-01-20 14:11:18.905 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:654] No active profile set, falling back to 1 default profile: "default"
+2024-01-20 14:11:20.847 [INFO] [main]
+				[org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-20 14:11:20.852 [INFO] [main]
+				[org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2024-01-20 14:11:20.853 [INFO] [main]
+				[org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-20 14:11:20.964 [INFO] [main]
+				[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2024-01-20 14:11:21.213 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2024-01-20 14:11:21.470 [INFO] [main]
+				[com.zaxxer.hikari.pool.HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:6dcd5f18-a99a-4f1e-bfe7-c066ba2fca3c user=SA
+2024-01-20 14:11:21.473 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2024-01-20 14:11:21.599 [INFO] [main]
+				[org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 14:11:21.697 [INFO] [main]
+				[org.hibernate.Version:44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-20 14:11:21.792 [INFO] [main]
+				[org.hibernate.cache.internal.RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+2024-01-20 14:11:22.750 [INFO] [main]
+				[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-20 14:11:24.048 [INFO] [main]
+				[org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-20 14:11:24.086 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:56] Started ElasticsearchApplication in 5.818 seconds (process running for 6.389)
+2024-01-20 14:11:50.432 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:50] Starting ProductSearchServiceTest using Java 17.0.7 with PID 12696 (started by Asus in C:\All-elastic-search\elasticsearch)
+2024-01-20 14:11:50.434 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:654] No active profile set, falling back to 1 default profile: "default"
+2024-01-20 14:11:51.990 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2024-01-20 14:11:52.247 [INFO] [main]
+				[com.zaxxer.hikari.pool.HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:f1d01ce5-55a9-4f7e-bae7-29362b7d2796 user=SA
+2024-01-20 14:11:52.248 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2024-01-20 14:11:52.318 [INFO] [main]
+				[org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 14:11:52.405 [INFO] [main]
+				[org.hibernate.Version:44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-20 14:11:52.464 [INFO] [main]
+				[org.hibernate.cache.internal.RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+2024-01-20 14:11:53.412 [INFO] [main]
+				[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-20 14:11:55.008 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:56] Started ProductSearchServiceTest in 5.01 seconds (process running for 6.377)
+2024-01-20 14:11:56.121 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:135] products : [Product(id=11066ee1-8dcc-4eac-89da-bfa0544c6b96, name=New Apple iPhone 12 Mini (64GB) - Blue, price=2300.0, quantity=15, category=phone, description=5.4-inch Super Retina XDR display
+Ceramic Shield, tougher than any smartphone glass
+A14 Bionic chip, the fastest chip ever in a smartphone
+Advanced dual-camera system with 12MP Ultra Wide and Wide cameras; Night mode, Deep Fusion, Smart HDR 3, 4K Dolby Vision HDR recording
+12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording
+Industry-leading IP68 water resistance, manufacturer=apple), Product(id=c942629e-1ac7-41ef-add9-de331ea08a29, name=New Apple iPhone 12 Pro Max (128GB) - Pacific Blue, price=2300.0, quantity=55, category=phone, description=6.7-inch Super Retina XDR display
+Ceramic Shield, tougher than any smartphone glass
+A14 Bionic chip, the fastest chip ever in a smartphone
+Pro camera system with 12MP Ultra Wide, Wide and Telephoto cameras; 5x optical zoom range; Night mode, Deep Fusion, Smart HDR 3, Apple ProRAW, 4K Dolby Vision HDR recording, manufacturer=apple)] : 2 
+2024-01-20 14:11:56.170 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2024-01-20 14:11:56.174 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2024-01-20 14:15:46.512 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2024-01-20 14:15:46.516 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2024-01-20 14:15:50.865 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:50] Starting ElasticsearchApplication using Java 17.0.7 with PID 16172 (C:\All-elastic-search\elasticsearch\target\classes started by Asus in C:\All-elastic-search\elasticsearch)
+2024-01-20 14:15:50.868 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:654] No active profile set, falling back to 1 default profile: "default"
+2024-01-20 14:15:52.959 [INFO] [main]
+				[org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-20 14:15:52.963 [INFO] [main]
+				[org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2024-01-20 14:15:52.963 [INFO] [main]
+				[org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-20 14:15:53.042 [INFO] [main]
+				[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2024-01-20 14:15:53.245 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2024-01-20 14:15:53.517 [INFO] [main]
+				[com.zaxxer.hikari.pool.HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e912731d-f111-4ade-a458-073480ce5d2c user=SA
+2024-01-20 14:15:53.521 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2024-01-20 14:15:53.592 [INFO] [main]
+				[org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 14:15:53.670 [INFO] [main]
+				[org.hibernate.Version:44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-20 14:15:53.718 [INFO] [main]
+				[org.hibernate.cache.internal.RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+2024-01-20 14:15:54.536 [INFO] [main]
+				[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-20 14:15:55.791 [INFO] [main]
+				[org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-20 14:15:55.823 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:56] Started ElasticsearchApplication in 5.56 seconds (process running for 6.097)
+2024-01-20 14:16:23.703 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:50] Starting ProductSearchServiceTest using Java 17.0.7 with PID 16264 (started by Asus in C:\All-elastic-search\elasticsearch)
+2024-01-20 14:16:23.706 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:654] No active profile set, falling back to 1 default profile: "default"
+2024-01-20 14:16:25.312 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2024-01-20 14:16:25.582 [INFO] [main]
+				[com.zaxxer.hikari.pool.HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:dab79834-60fb-4063-bc92-d80286bb404f user=SA
+2024-01-20 14:16:25.593 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2024-01-20 14:16:25.664 [INFO] [main]
+				[org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 14:16:25.755 [INFO] [main]
+				[org.hibernate.Version:44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-20 14:16:25.803 [INFO] [main]
+				[org.hibernate.cache.internal.RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+2024-01-20 14:16:26.720 [INFO] [main]
+				[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-20 14:16:28.427 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:56] Started ProductSearchServiceTest in 5.177 seconds (process running for 6.729)
+2024-01-20 14:16:29.495 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:142] products []
+2024-01-20 14:16:29.531 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2024-01-20 14:16:29.535 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2024-01-20 14:18:49.977 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:50] Starting ProductSearchServiceTest using Java 17.0.7 with PID 21476 (started by Asus in C:\All-elastic-search\elasticsearch)
+2024-01-20 14:18:49.979 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:654] No active profile set, falling back to 1 default profile: "default"
+2024-01-20 14:18:51.498 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2024-01-20 14:18:51.706 [INFO] [main]
+				[com.zaxxer.hikari.pool.HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:49cbcad9-f9fd-42dd-84ad-554b3b443392 user=SA
+2024-01-20 14:18:51.708 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2024-01-20 14:18:51.790 [INFO] [main]
+				[org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 14:18:51.859 [INFO] [main]
+				[org.hibernate.Version:44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-20 14:18:51.905 [INFO] [main]
+				[org.hibernate.cache.internal.RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+2024-01-20 14:18:52.797 [INFO] [main]
+				[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-20 14:18:54.432 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:56] Started ProductSearchServiceTest in 4.908 seconds (process running for 6.318)
+2024-01-20 14:18:55.494 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:155] The Product details : Product(id=4c394ac5-611e-4263-9dd7-14d7f073e74f, name=Dell Vostro 3401 14inch FHD AG 2 Side Narrow Border Display Laptop, price=2100.0, quantity=28, category=laptop, description=Processor:10th Generation Intel Core i3-1005G1 Processor (4MB Cache, Base frequency 1.2 GHz)
+Memory & Storage:4GB RAM 1TB 5400 rpm 2.5" SATA Hard Drive
+Display:14.0-inch FHD (1920 x 1080) Anti-glare LED Backlight 2 Side Narrow Border WVA Display, manufacturer=dell)
+2024-01-20 14:18:55.501 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:155] The Product details : Product(id=c942629e-1ac7-41ef-add9-de331ea08a29, name=New Apple iPhone 12 Pro Max (128GB) - Pacific Blue, price=2300.0, quantity=55, category=phone, description=6.7-inch Super Retina XDR display
+Ceramic Shield, tougher than any smartphone glass
+A14 Bionic chip, the fastest chip ever in a smartphone
+Pro camera system with 12MP Ultra Wide, Wide and Telephoto cameras; 5x optical zoom range; Night mode, Deep Fusion, Smart HDR 3, Apple ProRAW, 4K Dolby Vision HDR recording, manufacturer=apple)
+2024-01-20 14:18:55.502 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:155] The Product details : Product(id=11066ee1-8dcc-4eac-89da-bfa0544c6b96, name=New Apple iPhone 12 Mini (64GB) - Blue, price=2300.0, quantity=15, category=phone, description=5.4-inch Super Retina XDR display
+Ceramic Shield, tougher than any smartphone glass
+A14 Bionic chip, the fastest chip ever in a smartphone
+Advanced dual-camera system with 12MP Ultra Wide and Wide cameras; Night mode, Deep Fusion, Smart HDR 3, 4K Dolby Vision HDR recording
+12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording
+Industry-leading IP68 water resistance, manufacturer=apple)
+2024-01-20 14:18:55.502 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:155] The Product details : Product(id=7cea5bea-0a58-43d9-b3de-64a81b4ae1d2, name=Samsung Galaxy Note10 Lite (Aura Glow, 8GB RAM, 128GB Storage), price=2100.0, quantity=25, category=phone, description=12MP Ultra wide (123°) FF + F2.2 " Wide (77°) 12MP AF F1.7 Dual Pixel + Tele (45°) 12MP AF F2.4 OIS, 2x Zoom camera | 32MP front facing camera
+17.04 centimeters (6.7-inch) super Amoled infinity-O display and FHD+ capacitive multi-touch touchscreen with 2400 x 1080 pixels resolution | 16M color support
+Memory, Storage & SIM: 8GB RAM | 128GB internal memory expandable up to 1TB | Dual SIM dual-standby (4G+4G)
+Android v10.0 operating system with 2.7GHz+1.8GHz Exynos 9810 octa core processor, manufacturer=samsung)
+2024-01-20 14:18:55.502 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:155] The Product details : Product(id=bc18d93c-cf6b-4527-82dd-6024e4302d0f, name=Samsung 163 cm (65 Inches) Q Series 4K Ultra HD QLED, price=2100.0, quantity=5, category=television, description=Resolution: 4K Ultra HD (3840x2160) | Refresh Rate: 120 hertz
+Connectivity: 3 HDMI ports to connect set top box, Blu Ray players, gaming console | 2 USB ports to connect hard drives and other USB devices
+Sound : 40 Watts Output
+Display : QLED Panel | Q HDR Elite (HDR 10+) | Slim and stylish design, manufacturer=samsung)
+2024-01-20 14:18:55.539 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2024-01-20 14:18:55.542 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2024-01-20 14:21:12.279 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:50] Starting ProductSearchServiceTest using Java 17.0.7 with PID 20632 (started by Asus in C:\All-elastic-search\elasticsearch)
+2024-01-20 14:21:12.281 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:654] No active profile set, falling back to 1 default profile: "default"
+2024-01-20 14:21:13.895 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2024-01-20 14:21:14.155 [INFO] [main]
+				[com.zaxxer.hikari.pool.HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:34ca2539-1fbd-447f-86ab-96be67e91d78 user=SA
+2024-01-20 14:21:14.157 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2024-01-20 14:21:14.232 [INFO] [main]
+				[org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 14:21:14.315 [INFO] [main]
+				[org.hibernate.Version:44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-20 14:21:14.367 [INFO] [main]
+				[org.hibernate.cache.internal.RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+2024-01-20 14:21:15.275 [INFO] [main]
+				[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-20 14:21:16.902 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:56] Started ProductSearchServiceTest in 5.039 seconds (process running for 6.357)
+2024-01-20 14:21:18.097 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:135] products : [Product(id=4c394ac5-611e-4263-9dd7-14d7f073e74f, name=Dell Vostro 3401 14inch FHD AG 2 Side Narrow Border Display Laptop, price=2100.0, quantity=28, category=laptop, description=Processor:10th Generation Intel Core i3-1005G1 Processor (4MB Cache, Base frequency 1.2 GHz)
+Memory & Storage:4GB RAM 1TB 5400 rpm 2.5" SATA Hard Drive
+Display:14.0-inch FHD (1920 x 1080) Anti-glare LED Backlight 2 Side Narrow Border WVA Display, manufacturer=dell)] : 1 
+2024-01-20 14:21:18.139 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2024-01-20 14:21:18.143 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2024-01-20 14:24:26.863 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2024-01-20 14:24:26.869 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2024-01-20 14:24:31.365 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:50] Starting ElasticsearchApplication using Java 17.0.7 with PID 11388 (C:\All-elastic-search\elasticsearch\target\classes started by Asus in C:\All-elastic-search\elasticsearch)
+2024-01-20 14:24:31.369 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:654] No active profile set, falling back to 1 default profile: "default"
+2024-01-20 14:24:33.528 [INFO] [main]
+				[org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-20 14:24:33.531 [INFO] [main]
+				[org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2024-01-20 14:24:33.532 [INFO] [main]
+				[org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-20 14:24:33.629 [INFO] [main]
+				[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2024-01-20 14:24:33.845 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2024-01-20 14:24:34.072 [INFO] [main]
+				[com.zaxxer.hikari.pool.HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:0563dbee-677e-4965-9262-8549851ede8d user=SA
+2024-01-20 14:24:34.077 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2024-01-20 14:24:34.153 [INFO] [main]
+				[org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 14:24:34.231 [INFO] [main]
+				[org.hibernate.Version:44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-20 14:24:34.289 [INFO] [main]
+				[org.hibernate.cache.internal.RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+2024-01-20 14:24:35.072 [INFO] [main]
+				[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-20 14:24:36.372 [INFO] [main]
+				[org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-20 14:24:36.405 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:56] Started ElasticsearchApplication in 5.667 seconds (process running for 6.229)
+2024-01-20 14:25:06.004 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:50] Starting ProductSearchServiceTest using Java 17.0.7 with PID 25660 (started by Asus in C:\All-elastic-search\elasticsearch)
+2024-01-20 14:25:06.007 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:654] No active profile set, falling back to 1 default profile: "default"
+2024-01-20 14:25:07.592 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2024-01-20 14:25:07.853 [INFO] [main]
+				[com.zaxxer.hikari.pool.HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:7cbe146f-8333-4b1a-8142-553baac13900 user=SA
+2024-01-20 14:25:07.856 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2024-01-20 14:25:07.925 [INFO] [main]
+				[org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 14:25:07.992 [INFO] [main]
+				[org.hibernate.Version:44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-20 14:25:08.054 [INFO] [main]
+				[org.hibernate.cache.internal.RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+2024-01-20 14:25:08.972 [INFO] [main]
+				[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-20 14:25:10.563 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:56] Started ProductSearchServiceTest in 4.995 seconds (process running for 6.599)
+2024-01-20 14:25:11.617 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceTest:135] products : [Product(id=4c394ac5-611e-4263-9dd7-14d7f073e74f, name=Dell Vostro 3401 14inch FHD AG 2 Side Narrow Border Display Laptop, price=2100.0, quantity=28, category=laptop, description=Processor:10th Generation Intel Core i3-1005G1 Processor (4MB Cache, Base frequency 1.2 GHz)
+Memory & Storage:4GB RAM 1TB 5400 rpm 2.5" SATA Hard Drive
+Display:14.0-inch FHD (1920 x 1080) Anti-glare LED Backlight 2 Side Narrow Border WVA Display, manufacturer=dell)] : 1 
+2024-01-20 14:25:11.663 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2024-01-20 14:25:11.669 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2024-01-20 15:20:09.789 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2024-01-20 15:20:09.796 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2024-01-20 15:20:14.556 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:50] Starting ElasticsearchApplication using Java 17.0.7 with PID 4972 (C:\All-elastic-search\elasticsearch\target\classes started by Asus in C:\All-elastic-search\elasticsearch)
+2024-01-20 15:20:14.559 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:654] No active profile set, falling back to 1 default profile: "default"
+2024-01-20 15:20:16.467 [INFO] [main]
+				[org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-20 15:20:16.470 [INFO] [main]
+				[org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2024-01-20 15:20:16.471 [INFO] [main]
+				[org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-20 15:20:16.581 [INFO] [main]
+				[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2024-01-20 15:20:16.788 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2024-01-20 15:20:17.043 [INFO] [main]
+				[com.zaxxer.hikari.pool.HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:99fb1123-6447-4662-8e56-e2e969ea6ee5 user=SA
+2024-01-20 15:20:17.051 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2024-01-20 15:20:17.149 [INFO] [main]
+				[org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 15:20:17.255 [INFO] [main]
+				[org.hibernate.Version:44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-20 15:20:17.315 [INFO] [main]
+				[org.hibernate.cache.internal.RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+2024-01-20 15:20:18.149 [INFO] [main]
+				[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-20 15:20:19.512 [INFO] [main]
+				[org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-20 15:20:19.546 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:56] Started ElasticsearchApplication in 5.571 seconds (process running for 6.128)
+2024-01-20 15:20:55.164 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:50] Starting ProductSearchServiceOperationsTest using Java 17.0.7 with PID 8752 (started by Asus in C:\All-elastic-search\elasticsearch)
+2024-01-20 15:20:55.166 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:654] No active profile set, falling back to 1 default profile: "default"
+2024-01-20 15:20:56.827 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2024-01-20 15:20:57.058 [INFO] [main]
+				[com.zaxxer.hikari.pool.HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:eaacc0fe-f76f-4aa7-a0a0-646db0b2a571 user=SA
+2024-01-20 15:20:57.061 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2024-01-20 15:20:57.128 [INFO] [main]
+				[org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 15:20:57.208 [INFO] [main]
+				[org.hibernate.Version:44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-20 15:20:57.286 [INFO] [main]
+				[org.hibernate.cache.internal.RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+2024-01-20 15:20:58.212 [INFO] [main]
+				[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-20 15:20:59.832 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:56] Started ProductSearchServiceOperationsTest in 5.078 seconds (process running for 6.499)
+2024-01-20 15:21:00.841 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:103] Product Details : Product(id=3ce29846-a530-491f-8dbe-84a1f827d3c1, name=New Apple iPhone 12 Pro Max (128GB) - Pacific Blue, price=2300.0, quantity=55, category=phone, description=6.7-inch Super Retina XDR display
+Ceramic Shield, tougher than any smartphone glass
+A14 Bionic chip, the fastest chip ever in a smartphone
+Pro camera system with 12MP Ultra Wide, Wide and Telephoto cameras; 5x optical zoom range; Night mode, Deep Fusion, Smart HDR 3, Apple ProRAW, 4K Dolby Vision HDR recording, manufacturer=apple)
+2024-01-20 15:21:00.842 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:103] Product Details : Product(id=565448ee-eea8-4b24-a411-f4814d2307b6, name=New Apple iPhone 12 Mini (64GB) - Blue, price=2300.0, quantity=15, category=phone, description=5.4-inch Super Retina XDR display
+Ceramic Shield, tougher than any smartphone glass
+A14 Bionic chip, the fastest chip ever in a smartphone
+Advanced dual-camera system with 12MP Ultra Wide and Wide cameras; Night mode, Deep Fusion, Smart HDR 3, 4K Dolby Vision HDR recording
+12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording
+Industry-leading IP68 water resistance, manufacturer=apple)
+2024-01-20 15:21:00.842 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:103] Product Details : Product(id=5d47cd7e-9b74-4210-936e-2be9595e1a4d, name=Samsung Galaxy Note10 Lite (Aura Glow, 8GB RAM, 128GB Storage), price=2100.0, quantity=25, category=phone, description=12MP Ultra wide (123°) FF + F2.2 " Wide (77°) 12MP AF F1.7 Dual Pixel + Tele (45°) 12MP AF F2.4 OIS, 2x Zoom camera | 32MP front facing camera
+17.04 centimeters (6.7-inch) super Amoled infinity-O display and FHD+ capacitive multi-touch touchscreen with 2400 x 1080 pixels resolution | 16M color support
+Memory, Storage & SIM: 8GB RAM | 128GB internal memory expandable up to 1TB | Dual SIM dual-standby (4G+4G)
+Android v10.0 operating system with 2.7GHz+1.8GHz Exynos 9810 octa core processor, manufacturer=samsung)
+2024-01-20 15:21:00.843 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:103] Product Details : Product(id=e2d748ef-c131-481e-acab-15987f1d7f5f, name=Samsung 163 cm (65 Inches) Q Series 4K Ultra HD QLED, price=2100.0, quantity=5, category=television, description=Resolution: 4K Ultra HD (3840x2160) | Refresh Rate: 120 hertz
+Connectivity: 3 HDMI ports to connect set top box, Blu Ray players, gaming console | 2 USB ports to connect hard drives and other USB devices
+Sound : 40 Watts Output
+Display : QLED Panel | Q HDR Elite (HDR 10+) | Slim and stylish design, manufacturer=samsung)
+2024-01-20 15:21:00.894 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2024-01-20 15:21:00.898 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2024-01-20 15:42:46.442 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2024-01-20 15:42:46.447 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2024-01-20 15:42:52.912 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:50] Starting ElasticsearchApplication using Java 17.0.7 with PID 7132 (C:\All-elastic-search\elasticsearch\target\classes started by Asus in C:\All-elastic-search\elasticsearch)
+2024-01-20 15:42:52.914 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:654] No active profile set, falling back to 1 default profile: "default"
+2024-01-20 15:42:54.742 [INFO] [main]
+				[org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-20 15:42:54.746 [INFO] [main]
+				[org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2024-01-20 15:42:54.746 [INFO] [main]
+				[org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-20 15:42:54.859 [INFO] [main]
+				[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2024-01-20 15:42:55.073 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2024-01-20 15:42:55.329 [INFO] [main]
+				[com.zaxxer.hikari.pool.HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:521fbba3-8ca1-4c7c-993b-e50728856bb7 user=SA
+2024-01-20 15:42:55.330 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2024-01-20 15:42:55.412 [INFO] [main]
+				[org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 15:42:55.499 [INFO] [main]
+				[org.hibernate.Version:44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-20 15:42:55.559 [INFO] [main]
+				[org.hibernate.cache.internal.RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+2024-01-20 15:42:56.349 [INFO] [main]
+				[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-20 15:42:57.907 [INFO] [main]
+				[org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-20 15:42:57.935 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:56] Started ElasticsearchApplication in 5.588 seconds (process running for 6.157)
+2024-01-20 15:43:08.896 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:50] Starting ProductSearchServiceOperationsTest using Java 17.0.7 with PID 24752 (started by Asus in C:\All-elastic-search\elasticsearch)
+2024-01-20 15:43:08.899 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:654] No active profile set, falling back to 1 default profile: "default"
+2024-01-20 15:43:10.569 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2024-01-20 15:43:10.861 [INFO] [main]
+				[com.zaxxer.hikari.pool.HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e51cf6c2-dfac-4769-9752-8b79202854ef user=SA
+2024-01-20 15:43:10.864 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2024-01-20 15:43:10.946 [INFO] [main]
+				[org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 15:43:11.020 [INFO] [main]
+				[org.hibernate.Version:44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-20 15:43:11.060 [INFO] [main]
+				[org.hibernate.cache.internal.RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+2024-01-20 15:43:11.954 [INFO] [main]
+				[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-20 15:43:13.619 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:56] Started ProductSearchServiceOperationsTest in 5.152 seconds (process running for 6.655)
+2024-01-20 15:43:14.757 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:110] Product Details samsung : Product(id=7cea5bea-0a58-43d9-b3de-64a81b4ae1d2, name=Samsung Galaxy Note10 Lite (Aura Glow, 8GB RAM, 128GB Storage), price=2100.0, quantity=25, category=phone, description=12MP Ultra wide (123°) FF + F2.2 " Wide (77°) 12MP AF F1.7 Dual Pixel + Tele (45°) 12MP AF F2.4 OIS, 2x Zoom camera | 32MP front facing camera
+17.04 centimeters (6.7-inch) super Amoled infinity-O display and FHD+ capacitive multi-touch touchscreen with 2400 x 1080 pixels resolution | 16M color support
+Memory, Storage & SIM: 8GB RAM | 128GB internal memory expandable up to 1TB | Dual SIM dual-standby (4G+4G)
+Android v10.0 operating system with 2.7GHz+1.8GHz Exynos 9810 octa core processor, manufacturer=samsung)
+2024-01-20 15:43:14.758 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:110] Product Details samsung : Product(id=bc18d93c-cf6b-4527-82dd-6024e4302d0f, name=Samsung 163 cm (65 Inches) Q Series 4K Ultra HD QLED, price=2100.0, quantity=5, category=television, description=Resolution: 4K Ultra HD (3840x2160) | Refresh Rate: 120 hertz
+Connectivity: 3 HDMI ports to connect set top box, Blu Ray players, gaming console | 2 USB ports to connect hard drives and other USB devices
+Sound : 40 Watts Output
+Display : QLED Panel | Q HDR Elite (HDR 10+) | Slim and stylish design, manufacturer=samsung)
+2024-01-20 15:43:14.758 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:110] Product Details samsung : Product(id=5d47cd7e-9b74-4210-936e-2be9595e1a4d, name=Samsung Galaxy Note10 Lite (Aura Glow, 8GB RAM, 128GB Storage), price=2100.0, quantity=25, category=phone, description=12MP Ultra wide (123°) FF + F2.2 " Wide (77°) 12MP AF F1.7 Dual Pixel + Tele (45°) 12MP AF F2.4 OIS, 2x Zoom camera | 32MP front facing camera
+17.04 centimeters (6.7-inch) super Amoled infinity-O display and FHD+ capacitive multi-touch touchscreen with 2400 x 1080 pixels resolution | 16M color support
+Memory, Storage & SIM: 8GB RAM | 128GB internal memory expandable up to 1TB | Dual SIM dual-standby (4G+4G)
+Android v10.0 operating system with 2.7GHz+1.8GHz Exynos 9810 octa core processor, manufacturer=samsung)
+2024-01-20 15:43:14.758 [INFO] [main]
+				[com.example.elasticsearch.ProductSearchServiceOperationsTest:110] Product Details samsung : Product(id=e2d748ef-c131-481e-acab-15987f1d7f5f, name=Samsung 163 cm (65 Inches) Q Series 4K Ultra HD QLED, price=2100.0, quantity=5, category=television, description=Resolution: 4K Ultra HD (3840x2160) | Refresh Rate: 120 hertz
+Connectivity: 3 HDMI ports to connect set top box, Blu Ray players, gaming console | 2 USB ports to connect hard drives and other USB devices
+Sound : 40 Watts Output
+Display : QLED Panel | Q HDR Elite (HDR 10+) | Slim and stylish design, manufacturer=samsung)
+2024-01-20 15:43:14.801 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2024-01-20 15:43:14.804 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2024-01-20 16:19:54.531 [WARN] [HikariPool-1 housekeeper]
+				[com.zaxxer.hikari.pool.HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s597ms951µs400ns).
+2024-01-20 17:07:45.885 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2024-01-20 17:07:45.894 [INFO] [SpringApplicationShutdownHook]
+				[com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2024-01-20 17:07:53.061 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:50] Starting ElasticsearchApplication using Java 17.0.7 with PID 28240 (C:\All-elastic-search\elasticsearch\target\classes started by Asus in C:\All-elastic-search\elasticsearch)
+2024-01-20 17:07:53.063 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:654] No active profile set, falling back to 1 default profile: "default"
+2024-01-20 17:07:54.946 [INFO] [main]
+				[org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-20 17:07:54.950 [INFO] [main]
+				[org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2024-01-20 17:07:54.950 [INFO] [main]
+				[org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-20 17:07:55.033 [INFO] [main]
+				[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2024-01-20 17:07:55.207 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2024-01-20 17:07:55.430 [INFO] [main]
+				[com.zaxxer.hikari.pool.HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cb9538df-7045-46ec-a35b-3abfef74362a user=SA
+2024-01-20 17:07:55.433 [INFO] [main]
+				[com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2024-01-20 17:07:55.495 [INFO] [main]
+				[org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-20 17:07:55.575 [INFO] [main]
+				[org.hibernate.Version:44] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-20 17:07:55.611 [INFO] [main]
+				[org.hibernate.cache.internal.RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+2024-01-20 17:07:56.316 [INFO] [main]
+				[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-20 17:07:58.064 [INFO] [main]
+				[org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-20 17:07:58.097 [INFO] [main]
+				[com.example.elasticsearch.ElasticsearchApplication:56] Started ElasticsearchApplication in 5.65 seconds (process running for 6.246)
