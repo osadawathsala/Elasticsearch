@@ -25,6 +25,10 @@ public class ProductRepositoryService {
         Iterable<Product> results = productRepository.saveAll(products);
     }
 
+    /**
+     *
+     * @param product
+     */
     public void createProductIndex(final Product product) {
         productRepository.save(product);
     }
