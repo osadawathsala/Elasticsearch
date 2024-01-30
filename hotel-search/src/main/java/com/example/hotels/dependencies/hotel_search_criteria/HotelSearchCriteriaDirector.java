@@ -13,12 +13,12 @@ public class HotelSearchCriteriaDirector extends AbstractCriteriaDirector{
     }
 
     @Override
-    void buildCriteria() {
+    public void buildCriteria() {
         this.builder.createCriteria();
     }
 
     @Override
-    HotelSearchCriteria getCriteria() {
+    public HotelSearchCriteria getCriteria() {
         return this.builder.getCriteria();
     }
 }

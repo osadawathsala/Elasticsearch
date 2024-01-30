@@ -1,0 +1,21 @@
+version: '2.2'
+
+services:
+
+  standalone-es8-compose:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.0
+    container_name: "standalone_es8_compose"
+    environment:
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - xpack.security.enabled=false
+      - xpack.security.enrollment.enabled=false
+
+#    volumes:
+#      - ./ci/data/es/db:/usr/share/elasticsearch/data
+#      - ./ci/data/es/logs:/usr/share/elasticsearch/logs
+#      - ./ci/data/es/repo:/usr/share/elasticsearch/repo
+    ports:
+      - "9204:9200"
+    expose:
+      - "9200"

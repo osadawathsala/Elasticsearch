@@ -13,9 +13,9 @@ public class HotelSearchCriteriaUrlBuilder extends AbstractCriteriaBuilder{
     private SearchRequestModel searchRequestModel;
     private HotelSearchCriteria hotelSearchCriteria;
 
-    public HotelSearchCriteriaUrlBuilder(SearchRequestModel searchRequestModel, HotelSearchCriteria hotelSearchCriteria) {
+    public HotelSearchCriteriaUrlBuilder(SearchRequestModel searchRequestModel) {
         this.searchRequestModel = searchRequestModel;
-        this.hotelSearchCriteria = hotelSearchCriteria;
+        this.hotelSearchCriteria = new HotelSearchCriteria();
     }
 
     @Override
