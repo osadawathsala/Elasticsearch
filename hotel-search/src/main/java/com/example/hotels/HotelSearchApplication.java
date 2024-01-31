@@ -6,6 +6,7 @@ import com.example.hotels.dependencies.hotel_search_criteria.HotelSearchCriteria
 import com.example.hotels.model.criteria.HotelSearchCriteria;
 import com.example.hotels.model.request.SearchRequestModel;
 import com.example.hotels.model.response.SearchResponseModel;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -26,6 +27,7 @@ import java.util.List;
 
 @SpringBootApplication
 @RestController
+@Slf4j
 public class HotelSearchApplication {
 
 	@Autowired

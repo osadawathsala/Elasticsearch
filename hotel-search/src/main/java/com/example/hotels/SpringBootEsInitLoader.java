@@ -3,8 +3,7 @@ package com.example.hotels;
 import com.example.hotels.model.elasticsearch.Comment;
 import com.example.hotels.model.elasticsearch.HotelBookingDocument;
 import com.example.hotels.repository.HotelBookingRepository;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
@@ -21,10 +20,9 @@ import java.util.Arrays;
  * @Date 1/30/2024
  */
 @Component
+@Slf4j
 @Order(1)
 public class SpringBootEsInitLoader implements CommandLineRunner{
-
-    Logger logger = LoggerFactory.getLogger(SpringBootEsInitLoader.class);
 
     @Autowired
     HotelBookingRepository hotelBookingRepository;
@@ -34,7 +32,7 @@ public class SpringBootEsInitLoader implements CommandLineRunner{
     @Override
     public void run(String... args) throws Exception {
 
-        logger.info("CommandLineRunner#run(String[])");
+        log.info("CommandLineRunner#run(String[])");
 
         try {
 
@@ -84,11 +82,11 @@ public class SpringBootEsInitLoader implements CommandLineRunner{
             }
 
         } catch (Throwable t) {
-            logger.error(t.toString());
+            log.error(t.toString());
         }
 
         if (args.length > 0) {
-            logger.info("first command line parameter: '{}'", args[0]);
+            log.info("first command line parameter: '{}'", args[0]);
         }
     }
 }
